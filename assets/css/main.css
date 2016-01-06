@@ -58,6 +58,28 @@ navbar.a {
     background-color: #ffffff;
 }
 
+/* Sections */
+
+section:nth-of-type(4n+1) {
+  background-color:#ffffff;
+  font-color:3D5062;
+}
+
+section:nth-of-type(4n+2) {
+  background-color: #3D5062;
+  color: #ffffff;
+}
+
+section:nth-of-type(4n+3) {
+  background-color:#ffffff;
+  font-color:3D5062;
+}
+
+section:nth-of-type(4n+4) {
+  background-color: #23333B;
+  color: #ffffff;
+}
+
 /* Section 1 */
 
 .section1 {
@@ -75,8 +97,3 @@ img.emblem {
 }
 
 /* Section 2 */
-
-.section2 {
-  background: #3D5062;
-  color: #ffffff;
-}
