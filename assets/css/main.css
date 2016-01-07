@@ -97,3 +97,29 @@ img.emblem {
 }
 
 /* Section 2 */
+
+.section2 {
+
+}
+
+/* Section 3 */
+
+/* Section 4 */
+
+.section4 .row {
+  margin-top: 30px;
+  margin-bottom: 20px; 
+  padding-bottom:20px;
+  background-color: rgba(35,51,59,0.9);
+}
+
+
+.backgroundUnderlaySection4 {
+    background: url(http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/5/18/1337331092888/Cwm-Idwal-Snowdonia.-Mich-007.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
