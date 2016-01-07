@@ -58,7 +58,19 @@ navbar.a {
     background-color: #ffffff;
 }
 
+/* Icons */
+
+.icon {
+  position:relative;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:250px;
+  height:250px;
+}
 /* Sections */
+
 
 section:nth-of-type(4n+1) {
   background-color:#ffffff;
@@ -90,12 +102,7 @@ section h1 {
 }
 /* Section 1 */
 
-.section1 {
-  text-align: center;
-  width:100%;
-}
-
-img.emblem {
+.section1 img {
   position:relative;
   top:100px;
   padding-bottom:150px;
@@ -112,12 +119,34 @@ img.emblem {
 
 /* Section 3 */
 
+/* Section 5 */
+.section5 {
+  height:100%;
+  width:100%;
+}
+
+.section5 .row {
+  margin-top: 30px;
+  margin-bottom: 20px; 
+  padding-bottom:20px;
+  background-color: rgba(255,255,255,0.65);
+}
+.backgroundUnderlaySection5 {
+    background: url(http://im.rediff.com/wedding/2014/dec/GM_0058.jpg); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+}
 /* Section 8 */
 
 .section8 {
   height:100%;
   width:100%;
 }
+
 .section8 .row {
   margin-top: 30px;
   margin-bottom: 20px; 
@@ -125,12 +154,12 @@ img.emblem {
   background-color: rgba(35,51,59,0.9);
 }
 
-
 .backgroundUnderlaySection8 {
     background: url(http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/5/18/1337331092888/Cwm-Idwal-Snowdonia.-Mich-007.jpg); 
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+    background-attachment: fixed;
     height: 100%;
     width: auto;
 }
