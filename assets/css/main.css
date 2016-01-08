@@ -30,7 +30,7 @@ p {
 
 /* fadeIns */
 
-#fadeIn1, #fadeIn2, #fadeIn3, #fadeIn4, #fadeIn5, #fadeIn6, #fadeIn7 {
+#fadeIn1, #fadeIn2, #fadeIn3, #fadeIn4, #fadeIn5, #fadeIn6, #fadeIn7, #fadeIn8, #fadeIn9, #fadeIn10, #fadeIn11, #fadeIn12, #fadeIn13, #fadeIn14 {
   opacity: 0.001;
 }
 
@@ -74,7 +74,7 @@ navbar.a {
 
 section:nth-of-type(4n+1) {
   background-color:#ffffff;
-  font-color:3D5062;
+  font-color:#3D5062;
 }
 
 section:nth-of-type(4n+2) {
@@ -100,17 +100,26 @@ section .row {
 section h1 {
   padding-bottom:20px;
 }
+
 /* Section 1 */
+
+.section1 {
+  padding-top:130px;
+}
 
 .section1 img {
   position:relative;
-  top:100px;
-  padding-bottom:150px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 70px;
   max-width: 100%;
 }
 
+.section1 .fa {
+  color:#3D5062;
+  padding-top: 50px;
+  padding-bottom:80px;
+}
 /* Section 2 */
 
 .section2 {

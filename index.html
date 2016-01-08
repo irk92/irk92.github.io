@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome-animation/dist/font-awesome-animation.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -32,11 +34,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#welcome" id="fadeIn2">WELCOME<span class="sr-only">(current)</span></a></li>
-        <li><a href="#about" id="fadeIn3">ABOUT US</a></li>
-        <li><a href="#weddingDay" id="fadeIn4">THE DAY</a></li>
-        <li><a href="#giftList" id="fadeIn5">GIFTS</a></li>
-        <li class="dropdown" id="fadeIn6">
+        <li class="active"><a href="#welcome" id="fadeIn3">WELCOME<span class="sr-only">(current)</span></a></li>
+        <li><a href="#about" id="fadeIn4">ABOUT US</a></li>
+        <li><a href="#weddingDay" id="fadeIn5">THE DAY</a></li>
+        <li><a href="#giftList" id="fadeIn6">GIFTS</a></li>
+        <li class="dropdown" id="fadeIn7">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">THE LOCATION <span class="caret"></span></a>
           <ul class="dropdown-menu" id="navbar-collapse-1">
             <li><a href="#two">WHERE TO GO</a></li>
@@ -60,6 +62,7 @@
       <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4"></div>
       <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
         <img class="emblem" id="fadeIn1" src="images/emblem256.png"/>
+        <i class="fa fa-long-arrow-down fa-4x faa-float animated" id="fadeIn2"></i>
       </div>
       <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4"></div>
     </div>
@@ -70,7 +73,7 @@
 
 <!-- Section 2 -->
 <section id="welcome" class="section2">
-  <div class="container" id="fadeIn7">
+  <div class="container" id="fadeIn8">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>WELCOME</h1>
@@ -91,7 +94,7 @@
 <!-- Section 3 -->
 
 <section id="about" class="section3">
-  <div class="container" id="fadeIn8">
+  <div class="container" id="fadeIn9">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>ABOUT US</h1>
@@ -112,7 +115,7 @@
 <!-- Section 4 -->
 
 <section id="weddingDay" class="section">
-  <div class="container" id="fadeIn9">
+  <div class="container" id="fadeIn10">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>THE WEDDING DAY</h1>
@@ -133,7 +136,7 @@
 <!-- Section 5 -->
 
 <section id="giftList" class="section5">
-    <div class="container" id="fadeIn10">
+    <div class="container" id="fadeIn11">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <h1>GIFTS</h1>
@@ -160,7 +163,7 @@
 <!-- Section 6 -->
 
 <section id="transport" class="section6">
-  <div class="container" id="fadeIn11">
+  <div class="container" id="fadeIn12">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>GETTING TO BANGOR</h1>
@@ -181,7 +184,7 @@
 <!-- Section 7 -->
 
 <section id="accomodation" class="section7">
-  <div class="container" id="fadeIn12">
+  <div class="container" id="fadeIn13">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>SOMEWHERE TO STAY</h1>
@@ -202,7 +205,7 @@
 <!-- Section 8 -->
 
 <section id="whatToDo" class="section8">
-      <div class="container" id="fadeIn13">
+      <div class="container" id="fadeIn14">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>WHAT TO DO</h1>
@@ -242,7 +245,7 @@
 
 <!-- Footer -->
 
-<footer id="fadeIn14">
+<footer id="fadeIn1">
   <p>Designed by Ian Kissick</p>
   <p>Contact information: <a href="mailto:info@thekissicks.com">
   info@thekissicks.com</a>.</p>
@@ -261,12 +264,12 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('#fadeIn1').animate({opacity: 1},2000);
-      $('#fadeIn2').delay(500).animate({opacity: 1},2000);
-      $('#fadeIn3').delay(750).animate({opacity: 1},2000);
-      $('#fadeIn4').delay(1000).animate({opacity: 1},2000);
-      $('#fadeIn5').delay(1250).animate({opacity: 1},2000);
-      $('#fadeIn6').delay(1500).animate({opacity: 1},2000);
-      $('#fadeIn7').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn2').delay(250).animate({opacity: 1},2500);
+      $('#fadeIn3').delay(500).animate({opacity: 1},2000);
+      $('#fadeIn4').delay(750).animate({opacity: 1},2000);
+      $('#fadeIn5').delay(1000).animate({opacity: 1},2000);
+      $('#fadeIn6').delay(1250).animate({opacity: 1},2000);
+      $('#fadeIn7').delay(1500).animate({opacity: 1},2000);
       $('#fadeIn8').delay(2500).animate({opacity: 1},2000);
       $('#fadeIn9').delay(2500).animate({opacity: 1},2000);
       $('#fadeIn10').delay(2500).animate({opacity: 1},2000);
@@ -274,6 +277,7 @@
       $('#fadeIn12').delay(2500).animate({opacity: 1},2000);
       $('#fadeIn13').delay(2500).animate({opacity: 1},2000);
       $('#fadeIn14').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn15').delay(2500).animate({opacity: 1},2000);
     });
   </script>
 </body>
