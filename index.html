@@ -11,16 +11,6 @@
 
   <script src="http://code.jquery.com/jquery-1.4.4.min.js" type="text/javascript"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#fadeIn1').animate({opacity: 1},3500);
-    });
-  </script>
-  <script>
-    $(document).ready(function(){
-       $('.parallax').scrolly();
-    });
-</script>
 </head>
 <body>
 
@@ -42,11 +32,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#welcome">WELCOME<span class="sr-only">(current)</span></a></li>
-        <li><a href="#about">ABOUT US</a></li>
-        <li><a href="#weddingDay">THE DAY</a></li>
-        <li><a href="#giftList">GIFTS</a></li>
-        <li class="dropdown">
+        <li class="active"><a href="#welcome" id="fadeIn2">WELCOME<span class="sr-only">(current)</span></a></li>
+        <li><a href="#about" id="fadeIn3">ABOUT US</a></li>
+        <li><a href="#weddingDay" id="fadeIn4">THE DAY</a></li>
+        <li><a href="#giftList" id="fadeIn5">GIFTS</a></li>
+        <li class="dropdown" id="fadeIn6">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">THE LOCATION <span class="caret"></span></a>
           <ul class="dropdown-menu" id="navbar-collapse-1">
             <li><a href="#two">WHERE TO GO</a></li>
@@ -79,9 +69,8 @@
 <!-- End Section 1 -->
 
 <!-- Section 2 -->
-
 <section id="welcome" class="section2">
-  <div class="container">
+  <div class="container" id="fadeIn7">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>WELCOME</h1>
@@ -102,7 +91,7 @@
 <!-- Section 3 -->
 
 <section id="about" class="section3">
-  <div class="container">
+  <div class="container" id="fadeIn8">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>ABOUT US</h1>
@@ -123,7 +112,7 @@
 <!-- Section 4 -->
 
 <section id="weddingDay" class="section">
-  <div class="container">
+  <div class="container" id="fadeIn9">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>THE WEDDING DAY</h1>
@@ -144,7 +133,7 @@
 <!-- Section 5 -->
 
 <section id="giftList" class="section5">
-    <div class="container">
+    <div class="container" id="fadeIn10">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <h1>GIFTS</h1>
@@ -171,7 +160,7 @@
 <!-- Section 6 -->
 
 <section id="transport" class="section6">
-  <div class="container">
+  <div class="container" id="fadeIn11">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>GETTING TO BANGOR</h1>
@@ -192,7 +181,7 @@
 <!-- Section 7 -->
 
 <section id="accomodation" class="section7">
-  <div class="container">
+  <div class="container" id="fadeIn12">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h1>SOMEWHERE TO STAY</h1>
@@ -213,7 +202,7 @@
 <!-- Section 8 -->
 
 <section id="whatToDo" class="section8">
-      <div class="container">
+      <div class="container" id="fadeIn13">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>WHAT TO DO</h1>
@@ -253,7 +242,7 @@
 
 <!-- Footer -->
 
-<footer>
+<footer id="fadeIn14">
   <p>Designed by Ian Kissick</p>
   <p>Contact information: <a href="mailto:info@thekissicks.com">
   info@thekissicks.com</a>.</p>
@@ -269,5 +258,23 @@
   <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="assets/js/main.js"></script>
 
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fadeIn1').animate({opacity: 1},2000);
+      $('#fadeIn2').delay(500).animate({opacity: 1},2000);
+      $('#fadeIn3').delay(750).animate({opacity: 1},2000);
+      $('#fadeIn4').delay(1000).animate({opacity: 1},2000);
+      $('#fadeIn5').delay(1250).animate({opacity: 1},2000);
+      $('#fadeIn6').delay(1500).animate({opacity: 1},2000);
+      $('#fadeIn7').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn8').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn9').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn10').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn11').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn12').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn13').delay(2500).animate({opacity: 1},2000);
+      $('#fadeIn14').delay(2500).animate({opacity: 1},2000);
+    });
+  </script>
 </body>
 </html>
